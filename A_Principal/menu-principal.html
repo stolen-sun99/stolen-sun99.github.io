@@ -1,93 +1,94 @@
-<!-- Martinez Lopez Juan Antonio -->
-<!-- Cervantes Arellano Jesus Daniel -->
-<!-- Gutierrez Castro Santiago -->
-<!-- Chairez Delgado Diego Eduardo -->
-<!-- 601 -->
-<!-- PROYECTO DE HTML -->
+<!--Martinez Lopez Juan Antonio-->
+<!--Cervantes Arellano Jesus Daniel-->
+<!--Gutierrez Castro Santiago-->
+<!--Chairez Delgado Diego Eduardo-->
+<!--601-->
+<!--PROYECTO DE HTML-->
 <!DOCTYPE html>
 <html lang="es">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>Menu principal</title>
 <style type="text/css">
-header {
-    background-color: #6f4e37;
-    color: white;
-    padding: 15px;
-}
+	 header {
+            background-color: #6f4e37;
+            color: white;
+            padding: 15px;
+	 	}
 h1 {
-    background-color: #3F0;
-    font-size: 40px;
-    color: #FFF;
+	background-color:#3F0;
+	font-size: 40px;
+	color: #FFF;
 }
-.link {
-    color: #C86A42;
-    font-family: Arial, sans-serif;
-    font-weight: bold;
-    text-decoration: none;
+.link	{
+	color:#C86A42;
+	font-family:Arial, sans-serif;
+	font-weight: bold;
+	text-decoration: none;
 }
-h1, h2, h3, h4, h5, h6 {
-    font-family: Arial, sans-serif;
+
+h1,h2,h3,h4,h5,h6 {
+	font-family: Arial, sans-serif;
 }
 a {
-    font-weight: bold;
+	font-weight: bold;
 }
 h2 {
-    font-size: 35px;
-    color: #FFF;
+	font-size: 35px;
+	color: #FFF;
 }
 body {
-    background-color: #FFFFD0;
+	background-color: #FFFFD0;
 }
 h3 {
-    font-size: 37px;
-    color: #300;
+	font-size: 37px;
+	color: #300;
 }
 </style>
 <script type="text/javascript">
-function MM_swapImgRestore() {
-  var i, x, a = document.MM_sr;
-  for (i = 0; a && i < a.length && (x = a[i]) && x.oSrc; i++) {
-    x.src = x.oSrc;
-  }
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; 
+  for(i=0; a && i<a.length && (x=a[i]) && x.oSrc; i++) x.src=x.oSrc;
 }
-function MM_preloadImages() {
-  var d = document;
-  if (d.images) {
-    if (!d.MM_p) d.MM_p = new Array();
-    var i, j = d.MM_p.length, a = MM_preloadImages.arguments;
-    for (i = 0; i < a.length; i++)
-      if (a[i].indexOf("#") != 0) {
-        d.MM_p[j] = new Image;
-        d.MM_p[j++].src = a[i];
+function MM_preloadImages() { //v3.0
+  var d=document; 
+  if(d.images){ 
+    if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; 
+    for(i=0; i<a.length; i++)
+      if (a[i].indexOf("#")!=0){ 
+        d.MM_p[j]=new Image; 
+        d.MM_p[j++].src=a[i];
       }
   }
 }
-function MM_findObj(n, d) {
-  var p, i, x;
-  if (!d) d = document;
-  if ((p = n.indexOf("?")) > 0 && parent.frames.length) {
-    d = parent.frames[n.substring(p + 1)].document;
-    n = n.substring(0, p);
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  
+  if(!d) d=document; 
+  if((p=n.indexOf("?"))>0 && parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; 
+    n=n.substring(0,p);
   }
-  if (!(x = d[n]) && d.all) x = d.all[n];
-  for (i = 0; !x && i < d.forms.length; i++) x = d.forms[i][n];
-  for (i = 0; !x && d.layers && i < d.layers.length; i++) x = MM_findObj(n, d.layers[i].document);
-  if (!x && d.getElementById) x = d.getElementById(n);
+  if(!(x=d[n]) && d.all) x=d.all[n]; 
+  for (i=0; !x && i<d.forms.length; i++) x=d.forms[i][n];
+  for(i=0; !x && d.layers && i<d.layers.length; i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); 
   return x;
 }
-function MM_swapImage() {
-  var i, j = 0, x, a = MM_swapImage.arguments;
-  document.MM_sr = new Array;
-  for (i = 0; i < (a.length - 2); i += 3)
-    if ((x = MM_findObj(a[i])) != null) {
-      document.MM_sr[j++] = x;
-      if (!x.oSrc) x.oSrc = x.src;
-      x.src = a[i + 2];
-    }
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; 
+  document.MM_sr=new Array; 
+  for(i=0; i<(a.length-2); i+=3)
+   if ((x=MM_findObj(a[i]))!=null){
+     document.MM_sr[j++]=x; 
+     if(!x.oSrc) x.oSrc=x.src; 
+     x.src=a[i+2];
+   }
 }
 </script>
-<!-- CODIGO DE LA HORA DEL RELOJ -->
+<!--CODIGO DE LA HORA DEL RELOJ-->
 </head>
 
 <body onload="MM_preloadImages('../Imagenes/cafeteriadelvalle2img.png')">
@@ -96,15 +97,15 @@ function MM_swapImage() {
   <h1>
     <marquee>
      CAFETERIA DEL VALLE
-    </marquee>
+      </marquee>
   </h1>
 </header>
 <p></p>
-<hr />
+</hr>
 <header><h1>MENÚ PRINCIPAL</h1></header>
 </div>
 
-<!-- ESO SON LOS ENCABEZADOS -->
+<!--ESO SON LOS ENCABEZADOS-->
 <h4 align="right">
   <!-- #BeginDate format:fcEn2a -->Lunes, 19-May-2025 1:54 AM<!-- #EndDate -->
 </h4>
@@ -114,29 +115,29 @@ function MM_swapImage() {
     <img src="../Imagenes/cafeteriadelvalleimg.png" alt="slogan" width="431" height="244" id="delvalle" />
   </a>
 </h3>
-<!-- IMAGEN DE SUSTITUCION -->
+<!--IMAGEN DE SUSTITUCION-->
 
 <h3>Tipos de alimentos: </h3>
 
-<!-- AQUI EMPIEZA TODA LA TABLA, CADA TEXTO E IMAGEN TIENE UN VINCULO QUE LO LLEVA A SU ARCHIVO CON SU NOMBRE -->
+<!--AQUI EMPIEZA TODA LA TABLA, CADA TEXTO E IMAGEN TIENE UN VINCULO QUE LO LLEVA A SU ARCHIVO CON SU NOMBRE-->
 
 <div align="center">
   <table width="999" height="338" border="1">
     <tr>
-      <th height="49" colspan="2" bgcolor="#C86A42"><h2>SALADOS</h2></th>
-      <th colspan="2" bgcolor="#C86A42"><h2>DULCES</h2></th>
-      <th colspan="2" bgcolor="#C86A42"><h2>BEBIDAS</h2></th>
+      <th height="49" colspan="2" bgcolor="#C86A42" scope="col"><h2>SALADOS</h2></th>
+      <th colspan="2" bgcolor="#C86A42" scope="col"><h2>DULCES</h2></th>
+      <th colspan="2" bgcolor="#C86A42" scope="col"><h2>BEBIDAS</h2></th>
     </tr>
     <tr bgcolor="#6f4e37">
-      <td width="146"><div align="center"><a href="../B_Salados/sandwich-de-pollo.html" class="link">Sándwich de Pollo</a></div></td>
+      <td width="146" bgcolor="#6f4e37"><div align="center"> <a href="../B_Salados/sandwich-de-pollo.html" class="link">Sanwich de Pollo</a>      </div></td>
       <td width="171"><div align="center"><a href="../B_Salados/sandwich-de-pollo.html"><img src="../Imagenes/sandwichdepolloimg.jpg" width="190" height="135" alt="sandwich de pollo" /></a></div></td>
-      <td width="135"><div align="center"><a href="../C_Dulces/pastel-de-chocolate.html" class="link">Pastel de Chocolate</a></div></td>
+      <td width="135" class="link"><div align="center"><a href="../C_Dulces/pastel-de-chocolate.html" class="link">Pastel de Chocolate</a></div></td>
       <td width="138"><div align="center"><a href="../C_Dulces/pastel-de-chocolate.html"><img src="../Imagenes/pasteldechocolateimg.jpg" width="126" height="135" alt="Pastel de chocolate" /></a></div></td>
       <td width="173"><div align="center"><a href="../D_Bebidas/te-chai.html" class="link">Té Chai</a></div></td>
       <td width="196"><div align="center"><a href="../D_Bebidas/te-chai.html"><img src="../Imagenes/techaiimg.jpg" width="239" height="135" alt="Te chai" /></a></div></td>
     </tr>
     <tr bgcolor="#6f4e37">
-      <td><div align="center"><a href="../B_Salados/hamburguersa-clasica.html" class="link">Hamburguesa</a></div></td>
+      <td bgcolor="#6f4e37"><div align="center"> <a href="../B_Salados/hamburguersa-clasica.html" class="link">Hamburguesa</a>      </div></td>
       <td><div align="center"><a href="../B_Salados/hamburguersa-clasica.html"><img src="../Imagenes/hamburguesaimg.jpg" width="127" height="135" alt="Cangreburger" /></a></div></td>
       <td><div align="center"><a href="../C_Dulces/gelatina-de-frutas.html" class="link">Gelatina de Frutas</a></div></td>
       <td><div align="center"><a href="../C_Dulces/gelatina-de-frutas.html"><img src="../Imagenes/gelatinadefrutasimg.jpg" width="129" height="135" alt="Gelatina de frutas" /></a></div></td>
@@ -147,9 +148,9 @@ function MM_swapImage() {
       <td><div align="center"><a href="../B_Salados/ensalada-cesar.html" class="link">Ensalada César</a></div></td>
       <td><div align="center"><a href="../B_Salados/ensalada-cesar.html"><img src="../Imagenes/ensaladacesarimg.jpg" width="190" height="135" alt="ensalada césar" /></a></div></td>
       <td><div align="center"><a href="../C_Dulces/flan-de-caramelo.html" class="link">Flan de Caramelo</a></div></td>
-      <td><div align="center"><a href="../C_Dulces/flan-de-caramelo.html"><img src="../Imagenes/flandecarameloimg.jpg" width="174" height="135" alt="Flan de caramelo" /></a></div></td>
+      <td><div align="center"><a href="../C_Dulces/flan-de-caramelo.html"><img src="../Imagenes/flanDeCarameloImg.jpg" width="174" height="135" alt="Flan de Caramelo" /></a></div></td>
       <td><div align="center"><a href="../D_Bebidas/capuccino.html" class="link">Capuchino</a></div></td>
-      <td><div align="center"><a href="../D_Bebidas/capuccino.html"><img src="../Imagenes/capuccinoimg.jpg" width="156" height="135" alt="Capuchino" /></a></div></td>
+      <td><div align="center"><a href="../D_Bebidas/capuccino.html"><img src="../Imagenes/capuccinoimg.jpg" alt="Capuccino" width="156" height="135" border="0" /></a></div></td>
     </tr>
   </table>
 </div>
